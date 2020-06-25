@@ -11,7 +11,7 @@
 $theme = new stdClass();
 
 /* Give your new theme a name here */
-$theme->displayname = 'Modern';
+$theme->displayname = 'SSAT';
 
 /* Set parent to boolean FALSE to specify the theme has no parent */
 $theme->parent = 'raw';
