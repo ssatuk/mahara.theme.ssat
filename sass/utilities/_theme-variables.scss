@@ -1,18 +1,17 @@
 /*
  * Theme colours should be defined here, and (ideally) used only in the global variables files (bootstrap-variables, custom-variables)
  */
-$theme-color-ssat-cherry: #a50034;
-$theme-color-ssat-cherry-L10: #bf1a4e;
-$theme-color-ssat-green: #008578;
-$theme-color-ssat-blue: #007096;
-$theme-color-ssat-grey: #53565a;
-$theme-color-ssat-orange: #d78e17;
+ $theme-color-ssat-cherry: #a50034;
+ $theme-color-ssat-cherry-L10: #bf1a4e;
+ $theme-color-ssat-green: #008578;
+ $theme-color-ssat-blue: #007096;
+ $theme-color-ssat-grey: #53565a;
+ $theme-color-ssat-orange: #d78e17;
+  
+ $theme-primary-color: $theme-color-ssat-cherry;
+ $theme-secondary-color: scale-color($theme-color-ssat-grey, $lightness: +5%);
+ $theme-text-color: #545B5D; 
+ $theme-text-midtone-color: #666;
+ $theme-text-lighttone-color: #767676; 
  
-$theme-primary-color: $theme-color-ssat-cherry;
-$theme-secondary-color: scale-color($theme-color-ssat-grey, $lightness: +5%);
-$theme-text-color: #545B5D; 
-$theme-text-midtone-color: #666;
-$theme-text-lighttone-color: #767676; 
-
-$theme-accent-color: #178569; 
-
+ $theme-accent-color: #178569; 
